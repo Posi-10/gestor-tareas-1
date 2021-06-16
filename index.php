@@ -20,10 +20,12 @@
     <?php
         if (isset($_GET['vista'])) {
             switch ($_GET['vista']) {
-                case 'home':
-                    echo 'Bienvenido a casa';
+                case 'registro':
+                    require_once 'view/registro.php';
                     break;
-
+                case 'inicio-sesion':
+                    require_once 'view/inicio-sesion.php';
+                    break;
                 default:
                     echo 'Error 404';
                     break;
