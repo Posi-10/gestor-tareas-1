@@ -40,18 +40,4 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(() => {
-        $('#boton_ingresar').click(() => {
-            let usuario = $('#usuario').val();
-            let contrasenia = $('#contrasenia').val();
-            if(usuario == 'usuario@gmail.com' && contrasenia == '12345678') {
-                alert('Hola bienvenido!');
-                window.location.href = 'view/pagina-principal.php';
-            } else {
-                alert('Error!');
-            }
-        });
-        
-    });
-</script>
+<script src="manager/inicio-sesion.js"></script>

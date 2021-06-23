@@ -4,3 +4,4 @@
 <script src="<?=SERVIDOR?>lib/jquery/jquery3.6.0.js"></script>
 <script src="<?=SERVIDOR?>lib/popper/popper.js"></script>
 <script src="<?=SERVIDOR?>lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?=SERVIDOR?>lib/sweetalert2/sweetalert2@11.js"></script>

@@ -66,13 +66,13 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="contrasenia"><i class="fas fa-lock mr-2"></i>Contraseña:</label>
-                                            <input type="text" class="form-control form-control-sm rounded-pill" id="contrasenia" name="contrasenia" placeholder="Ingresar contraseña">
+                                            <input type="password" class="form-control form-control-sm rounded-pill" id="contrasenia" name="contrasenia" placeholder="Ingresar contraseña">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="confirmar_contrasenia"><i class="fas fa-lock mr-2"></i>Contraseña:</label>
-                                            <input type="text" class="form-control form-control-sm rounded-pill" id="confirmar_contrasenia" name="confirmar_contrasenia" placeholder="Ingresar contraseña">
+                                            <input type="password" class="form-control form-control-sm rounded-pill" id="confirmar_contrasenia" name="confirmar_contrasenia" placeholder="Ingresar contraseña">
                                         </div>
                                     </div>
                                 </div>
@@ -90,3 +90,4 @@
         </div>
     </div>
 </div>
+<script src="manager/registro.js"></script>

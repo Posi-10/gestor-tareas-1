@@ -48,20 +48,21 @@
                     <tbody>
                         <tr>
                             <td>
-
                                 <div class="rounded p-4 fondo_formularios">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col">
+
                                                 <div class="d-flex mb-3">
                                                     <div class="mr-auto"><?php echo 'Programación web';?></div>
                                                     <div>
-                                                        <span class="btn btn-sm rounded-pill botones mr-3"><i class="fas fa-edit mr-2"></i>Modificar</span>
+                                                        <span class="btn btn-sm rounded-pill botones mr-3" id="boton_modificar_tarea"><i class="fas fa-edit mr-2"></i>Modificar</span>
                                                     </div>
                                                     <div>
-                                                        <span class="btn btn-sm rounded-pill botones"><i class="fas fa-trash-alt mr-2"></i>Eliminar</span>
+                                                        <span class="btn btn-sm rounded-pill botones" id="boton_eliminar_tarea"><i class="fas fa-trash-alt mr-2"></i>Eliminar</span>
                                                     </div>
                                                 </div>
+                                                
                                             </div>
                                         </div>
                                         <hr class="divisor_horizontal">
@@ -83,7 +84,7 @@
                                                 <small><?php echo 'dd/mm/yyyy'?></small>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>   
                                 </div>
                             </td>
                         </tr>
@@ -92,16 +93,6 @@
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(() => {
-            $('#boton_agregar').hide();
-            $('#vista_tareas').hide();
-            $('#boton_lista_tareas').click(() => {
-                $('#vista_jumbotron').hide();
-                $('#boton_agregar').show();
-                $('#vista_tareas').show();
-            });
-        });
-    </script>
+    <script src="../manager/pagina-principal.js "></script>
 </body>
 </html>
