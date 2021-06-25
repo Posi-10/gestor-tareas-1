@@ -26,12 +26,15 @@
                 case 'inicio-sesion':
                     require_once 'view/inicio-sesion.php';
                     break;
+                case 'test-conexion':
+                    require_once 'app/conexion.php';
+                    break;
                 default:
                     echo 'Error 404';
                     break;
             }
         } else {
-            echo 'Estas en el Index';
+            header('location: inicio-sesion');
         }
     ?>
 

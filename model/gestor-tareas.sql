@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `tareas` (
   `id_usuario` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_tarea`),
   KEY `FK_tareas_usuario` (`id_usuario`),
-  CONSTRAINT `FK_tareas_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`)
+  CONSTRAINT `FK_tareas_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- La exportación de datos fue deseleccionada.

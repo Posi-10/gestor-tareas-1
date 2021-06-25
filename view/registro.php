@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <form class="shadow p-4 rounded-bottom fondo_formularios">
+            <form id=registro class="shadow p-4 rounded-bottom fondo_formularios">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
