@@ -20,9 +20,30 @@
             $stmt->bindParam(':nacimiento', $datos['nacimiento']);
             $stmt->bindParam(':email', $datos['email']);
             $stmt->bindParam(':contrasenia', $datos['contrasenia']);
-            $stmt->execute();
+            $respuesta = $stmt->execute();
             unset($this->conexion);
-            return $stmt;
+            return $respuesta;
+        }
+
+        public function login($email, $contrasenia) {
+            $query = "SELECT count(*) as existe FROM usuarios WHERE email = '$email' AND contrasenia = '$contrasenia'";
+            $stmt = $this->conexion->prepare($query);
+            $stmt->execute();
+
+            $respuesta = $stmt->fetch(PDO::FETCH_ASSOC)['existe'];
+
+            if ($respuesta > 0) {
+                $query = "SELECT id_usuario FROM usuarios WHERE email = '$email' AND contrasenia = '$contrasenia'";
+                $stmt = $this->conexion->prepare($query);
+                $stmt->execute();
+
+                $id_usuario = $stmt->fetch(PDO::FETCH_BOTH)[0];
+                $_SESSION['id_usuario'] = $id_usuario;
+
+                echo 1;
+            } else {
+                echo 2;
+            }
         }
     }
 ?>

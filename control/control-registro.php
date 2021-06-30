@@ -13,5 +13,9 @@
     $usuario = new Usuario();
 
     $respuesta = $usuario->insertar($datos);
-    return $respuesta;
+    if ($respuesta) {
+        echo 1;
+    } else {
+        echo 2;
+    }
 ?>

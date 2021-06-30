@@ -16,11 +16,23 @@
 
 **16 de Julio**
 
-## Para hoy 30 de Junio
+## Para el 30 de Junio
 
 Antes de que termine la clase necesitan decirme de que va a ser su proyecto.
 
-## Ejemplo de linea de comandos
+## Temas de proyecto
 
-- [x] pendiente
-- [ ] pendiente 2
+- Mich -> Tienda de ropa deportiva.
+- Emilia -> Sistema web de pedidos de productos.
+- Sandra -> Sistema que permite realizar un examen en linea.
+- Armando -> Pagina de rentas de departamentos.
+- Guillermo -> Recetario.
+- Fernando Sebastian -> Pagina de consulta del precio del nopal.
+- Alfredo -> Punto de venta.
+- Isaac -> Control de inventario.
+- Uriel -> Agencia de autos.
+- Salatiel -> Control de una biblioteca.
+- Yohali -> Venta de boletos para eventos.
+- Carlos -> Pagina de apuestas.
+- Fernando Said -> Pokedex
+- Miguel Angel -> Control de vacunacion COVID

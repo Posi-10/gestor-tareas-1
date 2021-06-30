@@ -72,6 +72,16 @@ $(document).ready(() => {
                                                 type : "post",
                                                 success : (respuesta) => {
                                                     console.log(respuesta);
+                                                    if (respuesta == 1) {
+                                                        Swal.fire({
+                                                            icon: 'success',
+                                                            title: '¡Usuario registrado!',
+                                                            background: '#202020'
+                                                        });
+                                                        setTimeout(() => {
+                                                            window.location = 'inicio-sesion'
+                                                        }, 4000);
+                                                    }
                                                 }
                                             });
                                             
