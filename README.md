@@ -23,3 +23,4 @@ Antes de que termine la clase necesitan decirme de que va a ser su proyecto.
 ## Ejemplo de linea de comandos
 
 - [x] pendiente
+- [ ] pendiente 2
